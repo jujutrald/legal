@@ -12,7 +12,7 @@
     position: relative;
     padding: 0 2em;
 }
-.logo {
+#logo {
     width: 50px;
     height: 50px;
     margin-top: 15px;
@@ -187,4 +187,138 @@ nav {
 }
 .plan .recomendado {
     background-color: #FF0000;
+}
+.buscar-dominio {
+    background-color: #000000;
+    text-align: center;
+    padding: 5em;
+}
+.buscar-dominio h2 {
+    color: #CCC;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.buscar-dominio p {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.buscar-dominio input[type=text]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+}
+.buscar-dominio input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+.buscar-dominio input[type=submit] {
+    background-color: #1ED760;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34px;
+}
+.contato-container {
+    text-align: center;
+    padding: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2 {
+    font-size: 36px;
+}
+.contato-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contato-container input, .contato-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+.contato-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    background-color: #1ED760;
+}
+footer {
+    background-color: #242950;
+    text-align: center;
+    font-weight: 500;
+    height: 64px;
+    
+}
+footer p {
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+@media screen and(max-width: 700px) {
+    .navbar-itens li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    .plan {
+        max-width: 100%;
+    }
+    .buscar-dominio {
+        padding: 3em 2em;
+    }
+    .buscar-dominio {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contato-container {
+        padding: 3em 2em;
+    }
+    .contato-container input, .contato-container textarea {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .plans-container {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .plans-precos h1 {
+        text-align: center;
+        margin-bottom: 2px;
+        margin-left: 30%;
+    }
+    .planos-precos p {
+        text-align: center;
+        margin-left: 24%;
+    }
 }
